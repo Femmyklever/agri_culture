@@ -885,6 +885,7 @@ form .form-group:first-child > input:first-child{
 }
 form .form-group:first-child > input:last-child{
   max-width: 500px;
+  width: 100%;
 }
 
 
@@ -1150,6 +1151,14 @@ form .form-group:first-child > input:last-child{
   grid-template-columns: repeat(2,1fr);
 }
 
+/* Form  */
+/* form .form-group:first-child{
+  flex-direction: column;
+}
+form .form-group:first-child input{
+  width: 100%;
+} */
+
 }
 
 @media (max-width: 596px){
@@ -1285,6 +1294,16 @@ form .form-group:first-child > input:last-child{
     color: var(--primary-color);
     padding-right: 30px;
   }
+
+  /* Form */
+  form .form-group:first-child{
+    flex-direction: column;
+  }
+
+  /* form .form-group:first-child > input:last-child{
+    max-width: 500px;
+    width: 100%;
+  } */
 
 }
 
