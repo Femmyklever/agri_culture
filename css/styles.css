@@ -1220,12 +1220,12 @@ form .form-group:first-child > input:last-child{
     margin-bottom: 1rem;
   }
 
-  .form-group{
+  .newsletter{
     flex-direction: column;
     width: 100%;
     gap: 1rem;
   }
-  .form-group input:last-child, .form-group input:first-child{
+  .newsletter input:last-child, .newsletter input:first-child{
     width: 100% ;
   }
     /* Team */
